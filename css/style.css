@@ -1474,11 +1474,26 @@ nav {
   }
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 425px) {
+  .services-box-content button {
+    width: 60%;
+    font-size: 0.7rem;
+  }
+  .box-svg {
+    width: 60%;
+    height: 40%;
+    transform: rotate(-35deg) translateX(100px) translateY(100px);
+  }
+  .box-svg i {
+    font-size: 3.7rem;
+  }
+}
+
+@media screen and (max-width: 355px) {
   .box-svg {
     width: 75%;
     height: 40%;
-    transform: rotate(-35deg) translateX(55px) translateY(80px);
+    transform: rotate(-35deg) translateX(50px) translateY(70px);
   }
 
   .services-title {
@@ -1494,6 +1509,10 @@ nav {
     font-size: 0.7rem;
     line-height: 20px;
   }
+  .services-box-content h4 {
+    font-size: 0.7rem;
+    text-align: center;
+  }
 
   .services-box-content button {
     height: 5vh;
@@ -1504,7 +1523,7 @@ nav {
   }
 
   .box-svg i {
-    font-size: 2.7rem;
+    font-size: 3.3rem;
   }
 }
 
@@ -1943,7 +1962,8 @@ footer {
   display: inline-block;
   margin: 15px 8px 0px 0px;
   color: black;
-  border: 2px solid rgb(189, 187, 187);
+  border: 1px solid #404040;
+  /* border: 2px solid rgb(189, 187, 187); */
   border-radius: 100%;
   padding: 5px 7px;
   font-size: 1.3rem;
@@ -1955,17 +1975,19 @@ footer {
 
 .left-1-content h6 {
   font-size: 1rem;
-  border: 1px solid #b0adad;
+  border: 2px solid #b0adad;
   /* border: 3px solid #eae9e9; */
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  /* font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; */
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 900;
   display: inline-block;
   font-weight: lighter;
   margin: 10px;
-  margin-left: -4px;
-  /* margin-right: 15px; */
+  /* margin-left: -4px; */
+  margin-right: -10px;
   border-radius: 15px;
   text-align: center;
-  padding: 6px;
+  padding: 2px;
 }
 
 .left-1-content h6:hover {
@@ -2193,10 +2215,19 @@ footer {
   word-spacing: 2px;
   color: #717275;
 }
-
+@media screen and (min-width: 1200px) {
+  .left-1-content h6 {
+    margin-right: 10px;
+    padding: 5px 8px;
+    margin-left: -2px;
+  }
+}
 @media screen and (max-width: 1200px) {
   .left-1-content h6 {
     font-size: 0.9rem;
+    margin-right: 10px;
+    padding: 4px 8px;
+    margin-left: -2px;
   }
 
   .left-1-content h5,
@@ -2295,6 +2326,10 @@ footer {
   .footer-title {
     height: 25vh;
   }
+  .footer-title img {
+    height: 20vh;
+    width: 22vw;
+  }
 
   .footer-title h1 {
     font-size: 1.9rem;
@@ -2340,12 +2375,26 @@ footer {
     text-align: center;
   }
 }
+@media screen and (max-width: 480px) {
+  .left-1-content h6 {
+    font-size: 0.6rem;
+    margin-right: 10px;
+    padding: 4px;
+  }
+  .footer-title img {
+    height: 14vh;
+    width: 16vw;
+  }
+}
 
 @media screen and (max-width: 420px) {
   footer {
     height: 150vh;
   }
-
+  .footer-title img {
+    height: 14vh;
+    width: 20vw;
+  }
   .footer-title {
     height: 20vh;
   }
@@ -2372,8 +2421,9 @@ footer {
 
   .left-1-content h6 {
     font-size: 0.6rem;
-    padding: auto;
-    /* margin-left: -2px; */
+    margin-right: 4px;
+    padding: 5px;
+    margin-left: 4px;
   }
 
   .left-1-content h5,
@@ -2424,5 +2474,9 @@ footer {
 @media screen and (max-width: 300px) {
   .footer-title {
     height: 15vh;
+  }
+  .footer-title img {
+    height: 10vh;
+    width: 16vw;
   }
 }
