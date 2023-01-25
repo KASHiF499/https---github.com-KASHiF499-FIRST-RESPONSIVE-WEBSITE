@@ -869,10 +869,11 @@ nav {
   }
 
   .right-personal {
-    height: 20vh;
+    height: 18vh;
     display: flex;
     text-align: center;
-    flex-direction: column;
+    justify-content: center;
+    /* flex-direction: column; */
   }
 
   .right-personal h1 {
@@ -881,9 +882,8 @@ nav {
   }
 
   .right-personal img {
-    height: 10vh;
-    width: 18vw;
-    margin-top: 8px;
+    height: 12vh;
+    width: 20vw;
   }
 
   .about-profile {
@@ -926,6 +926,15 @@ nav {
     font-size: 0.8rem;
     width: 70%;
     margin-top: 8px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .right-personal {
+    height: 16vh;
+  }
+  .right-personal img {
+    height: 10vh;
+    width: 16vw;
   }
 }
 
