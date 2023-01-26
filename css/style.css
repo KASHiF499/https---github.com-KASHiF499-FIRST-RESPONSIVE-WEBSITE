@@ -489,13 +489,14 @@ nav {
   }
 
   .main-1 img {
-    height: 14vh;
-    width: 18vw;
+    height: 12vh;
+    width: 20vw;
   }
 
   .main-1 h1 {
     padding: 6px 10px;
     font-size: 1.7rem;
+    letter-spacing: -1px;
   }
 
   .main-2 h1 {
@@ -614,7 +615,7 @@ nav {
 
   .main-1 img {
     height: 10vh;
-    width: 20vw;
+    width: 22vw;
   }
 
   .main-1 h1 {
@@ -883,7 +884,7 @@ nav {
 
   .right-personal img {
     height: 12vh;
-    width: 20vw;
+    width: 24vw;
   }
 
   .about-profile {
@@ -930,11 +931,13 @@ nav {
 }
 @media screen and (max-width: 375px) {
   .right-personal {
-    height: 16vh;
+    height: 15vh;
+    justify-content: center;
+    align-items: center;
   }
   .right-personal img {
-    height: 10vh;
-    width: 16vw;
+    height: 8vh;
+    width: 18vw;
   }
 }
 
@@ -1983,14 +1986,13 @@ footer {
 }
 
 .left-1-content h6 {
-  font-size: 1rem;
-  border: 2px solid #b0adad;
+  font-size: 1.1rem;
+  border: 1px solid #b0adad;
   /* border: 3px solid #eae9e9; */
   /* font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; */
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-weight: 900;
   display: inline-block;
-  font-weight: lighter;
+  font-weight: 500;
   margin: 10px;
   /* margin-left: -4px; */
   margin-right: -10px;
