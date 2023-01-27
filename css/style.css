@@ -616,7 +616,7 @@ nav {
 
   .main-1 img {
     height: 10vh;
-    width: 22vw;
+    width: 16vw;
   }
 
   .main-1 h1 {
@@ -660,6 +660,7 @@ nav {
 
   .main-1 img {
     height: 8vh;
+    width: 18vw;
   }
 
   .lists ul {
@@ -879,13 +880,12 @@ nav {
   }
 
   .right-personal h1 {
-    margin-top: 8px;
     font-size: 2rem;
   }
 
   .right-personal img {
     height: 12vh;
-    width: 24vw;
+    width: 18vw;
   }
 
   .about-profile {
@@ -937,11 +937,13 @@ nav {
     align-items: center;
   }
   .right-personal img {
-    height: 8vh;
+    height: 10vh;
     width: 18vw;
   }
+  .right-personal h1 {
+    font-size: 1.7rem;
+  }
 }
-
 /* ///////////////////////////////////////////////////////////////////   COMPANIES /////////////////////////////////////////////////////////////// */
 #companies {
   height: 50vh;
